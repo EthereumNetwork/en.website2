@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "nodemon server/server.js"
+    "start": "nohup nodemon server/server.js </dev/null >server.log &"
   },
   "dependencies": {
     "connect-history-api-fallback": "^1.6.0",

@@ -1,6 +1,7 @@
 # ethereum.network
 
-## Project setup
+## Project setup and requirements
+Node 12.x and Nodemon
 ```
 npm install
 ```
